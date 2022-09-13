@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harry Potter</title>
+
+  <link href="http://fonts.cdnfonts.com/css/shikamaru" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/hp-style.css">
+  
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <div class="adventurer">
+        <h1>The Sorting Hat</h1>
+    </div>
+    <div id="container">
+        <form class="form">
+            <div class="question-box">
+              <h2>Frage 1: Mond oder Sterne?</h2>
+              <div class="radiobtn">
+                <input type="radio" id="moon" name="q1" value="3" />
+                <label for="moon">Mond</label>
+              </div>
+              <div class="radiobtn">
+                <input type="radio" id="stars" name="q1" value="2" />
+                <label for="stars">Sterne</label>
+              </div>
+            </div>
+            <div class="question-box">
+              <h2>Frage 2: Wie möchtest du gern in der Geschichte bekannt sein?</h2>
+              <div class="radiobtn">
+                <input type="radio" id="great" name="q2" value="1" />
+                <label for="great">Der/Die Große</label>
+              </div>
+              <div class="radiobtn">
+                <input type="radio" id="wise"  name="q2" value="4"/>
+                <label for="wise">Der/Die Weise</label>
+              </div>
+              <div class="radiobtn">
+                <input type="radio" id="brave" name="q2" value="3"/>
+                <label for="brave">Der/Die Mutige</label>
+              </div>
+              <div class="radiobtn">
+                <input type="radio" id="good" name="q2" value="2"/>
+                <label for="good">Der/Die Gute</label>
+              </div>
+          </div>
+          <div class="question-box">
+            <h2>Frage 3: Welcher Weg lockt dich am meisten?</h2>
+            <div class="radiobtn">
+              <input type="radio" id="forestpath" name="q3" value="3" />
+              <label for="forestpath">Der gewundene, mit Blättern übersäte Weg durch den Wald</label>
+            </div>
+            <div class="radiobtn">
+              <input type="radio" id="sunnyalley" name="q3" value="2"/>
+              <label for="sunnyalley">Die breite, sonnige, grasbewachsene Gasse</label>
+            </div>
+            <div class="radiobtn">
+              <input type="radio" id="darkalley" name="q3" value="1"/>
+              <label for="darkalley">Die schmale, dunkle, von Laternen beleuchtete Gasse</label>
+            </div>
+            <div class="radiobtn">
+              <input type="radio" id="cobblestonestreet" name="q3" value="4"/>
+              <label for="cobblestonestreet"> Die mit alten Gebäuden gesäumte Kopfsteinpflasterstrasse</label>
+            </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 4: Wenn du Hogwarts besuchen würdest, welches Haustier würdest du mitnehmen?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="cat" name="q4" value="3" />
+            <label for="cat">Katze</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="toad" name="q4" value="2"/>
+            <label for="toad">Kröte</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="owl" name="q4" value="4"/>
+            <label for="owl">Eule</label>
+          </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 5: Welche der folgenden Dinge findest du am schwierigsten zu bewältigen?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="loneliness" name="q5" value="3" />
+            <label for="loneliness">Einsamkeit</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="boredom" name="q5" value="4"/>
+            <label for="boredom">Langeweile</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="hunger" name="q5" value="2"/>
+            <label for="hunger">Hunger</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="beingignored" name="q5" value="1"/>
+            <label for="beingignored">Ignoriert werden</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="cold" name="q5" value="4"/>
+            <label for="cold">Kälte</label>
+          </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 6: Welches Instrument gefällt deinem Ohr am besten?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="piano" name="q6" value="3" />
+            <label for="piano">Das Klavier</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="drum" name="q6" value="1"/>
+            <label for="drum">Die Trommel</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="violin" name="q6" value="4"/>
+            <label for="violin">Die Geige</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="trumpet" name="q6" value="2"/>
+            <label for="trumpet">Die Trompete</label>
+          </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 7: Wenn du Macht haben könntest, welche würdest du wählen?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="readminds" name="q7" value="4" />
+            <label for="readminds">Die Macht Gedanken zu lesen</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="changepast" name="q7" value="1"/>
+            <label for="changepast">Die Macht die Vergangenheit zu ändern</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="invisibility" name="q7" value="3"/>
+            <label for="invisibility">Die Macht der Unsichtbarkeit</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="speaktoanimals" name="q7" value="2"/>
+            <label for="speaktoanimals">Die Macht mit Tieren zu sprechen</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="superpower" name="q7" value="1"/>
+            <label for="superpower">Die Macht der übermenschlichen Kraft</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="changeappearance" name="q7" value="3"/>
+            <label for="changeappearance">Die Macht dein Aussehen nach belieben zu verändern</label>
+          </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 8: Welcher Alptraum würde dich am meisten erschrecken?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="height" name="q8" value="4" />
+            <label for="height">Auf etwas sehr Hohem zu stehen und plötzlich zu erkennen, dass es keine Hand- oder Fußstützen gibt, noch eine Barriere, die einen daran hindert, zu fallen.</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="strangevoice" name="q8" value="1"/>
+            <label for="strangevoice">Gezwungen zu sein, mit einer so dummen Stimme zu sprechen, dass dich kaum jemand versteht und alle dich auslachen.</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="beingforgotten" name="q8" value="2"/>
+            <label for="beingforgotten">Aufwachen und feststellen, dass weder deine Freunde noch deine Familie eine Ahnung haben, wer du bist.</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="imprisoned" name="q8" value="3"/>
+            <label for="imprisoned">Ein Auge am Schlüsselloch des dunklen, fensterlosen Raumes, in dem du eingesperrt bist.</label>
+          </div>
+        </div>
+        <div class="question-box">
+          <h2>Frage 9: Kopf oder Zahl?</h2>
+          <div class="radiobtn">
+            <input type="radio" id="heads" name="q9" value="3"/>
+            <label for="heads">Kopf</label>
+          </div>
+          <div class="radiobtn">
+            <input type="radio" id="tails" name="q9" value="2"/>
+            <label for="tails">Zahl</label>
+          </div>
+        </div>
+        <div id="error_message"></div>
+        <input id="submit-btn" type="submit" value="Abschicken"/>
+      </form>
+    </div>
+  <a href="hp_landing.html" class="back">Zurück</a>
+
+  <script type="text/javascript" src="../assets/js/main.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('form').on('submit', function(event) {
+        event.preventDefault();
+
+        var total = getScore();
+        var message;
+
+        if (total < 30*1/4) {
+          const div = document.getElementById("container");
+          div.style.color = "#1A472A";
+          message = "<b>Du bist ein Slytherin!</b><br><br>\
+                    Slytherin ist eines der vier Häuser der Hogwartsschule für Hexerei und Zauberei und beherbergt vor allem Schüler, die Eigenschaften wie List, Einfallsreichtum und Ehrgeiz aufweisen. Sein Wappentier ist die Schlange und seine Farben sind Grün und Silber. Der Hausgeist Slytherins ist der Blutige Baron. Das Haus besteht, aufgrund des Misstrauens des Gründers Salazar Slytherin gegenüber muggelstämmigen Hexen und Zauberern, größtenteils aus reinblütigen, teils aber auch halbblütigen Schülern. Das Haus Slytherin hat einen schlechten Ruf, da viele behaupten, es wäre die Quelle einer Vielzahl dunkler Magier in Großbritannien. Zauberer wie Tom Riddle, sowie viele seiner Todesser untermauern dieses Vorurteil. Slytherin pflegt eine sehr große Rivalität mit dem Hause Gryffindor.\
+                    <br><br>\
+                    Slytherin entspricht dem Element Wasser.\
+                    <br><br>\
+                    Slytherins neigen dazu ehrgeizig, listig, schlau, erfolgsorientiert sowie führungsstark zu sein. Außerdem haben sie einen stark ausgeprägten Sinn der Selbsterhaltung, was bedeutet, dass sie lange zögern bevor sie handeln, um alle Möglichkeiten ihrer Entscheidung abzuwägen.";
+        } else if (total < 30*1/2) {
+          const div = document.getElementById("container");
+          div.style.color = "#000000";
+          message = "<b>Du bist ein Hufflepuff!</b><br><br>\
+                    Hufflepuff ist eines der vier Häuser der Hogwartsschule für Hexerei und Zauberei und wurde von Helga Hufflepuff gegründet. Das Wappentier ist der Dachs und die Farben sind schwarz und gelb. Hufflepuff zeichnet sich besonders durch treue Freunde aus, aber auch Schüler, die willig sind, zu lernen. Auch steht Gerechtigkeit bei ihnen hoch im Kurs. Obwohl Hufflepuff oft bei den anderen Häusern um sein Ansehen kämpfen muss, haben sie viele erfolgreiche und berühmte Hexen und Zauberer hervorgebracht. Hufflepuff ist das Haus mit den wenigsten dunklen Zauberern.\
+                    <br><br>\
+                    Außerdem kann man das Haus Hufflepuff mit dem Element Erde vergleichen.\
+                    <br><br>\
+                    Zu den Hufflepuff-Eigenschaften gehören ein starker Sinn für Gerechtigkeit, Loyalität, Geduld und eine Neigung zu harter Arbeit.";
+        } else if (total < 30*3/4) {
+          const div = document.getElementById("container");
+          div.style.color = "#740001";
+          message = "<b>Du bist ein Gryffindor!</b><br><br>\
+                    Gryffindor ist eines der vier Häuser der Hogwartsschule für Hexerei und Zauberei und wurde von Godric Gryffindor gegründet. Gryffindor wies den Sprechenden Hut an, Schüler mit Eigenschaften, die er am meisten schätzte, wie Mut, Tapferkeit und Entschlossenheit, auszuwählen, um sie in sein Haus zu sortieren. Das Wappentier ist ein Löwe, und die Farben sind Scharlachrot und Gold. Sir Nicholas de Mimsy-Porpington, auch bekannt als 'Fast kopfloser Nick', ist der Hausgeist.\
+                    <br><br>\
+                    Gryffindor entspricht in etwa dem Element Feuer, weshalb die Farben Scharlachrot und Gold gewählt wurden, um das Haus zu symbolisieren. Die Farbe des Feuers entspricht auch der eines Löwen, wobei Scharlachrot für die Mähne und den Schwanz und Gold für das Fell steht.\
+                    <br><br>\
+                    Wie auch zum Gründer Godric Gryffindor, gehören zu den Attributen von Gryffindors Eigenschaften wie Mut und Tapferkeit. Sie sind meist sehr abenteuerlustig und fürchten sich selten vor Herausforderungen.";
+        } else {
+          const div = document.getElementById("container");
+          div.style.color = "#0E1A40";
+          message = "<b>Du bist ein Ravenclaw!</b><br><br>\
+                    Rowena Ravenclaw freundete sich schon früh mit der gutmütigen Helga Hufflepuff an und lernte später die anderen beiden Mitgründer von Hogwarts kennen. Ravenclaw bevorzugte nachdenkliche und kluge Schüler. nach ein paar Jahren bekam sie ein Kind, Helena Ravenclaw (über den Vater ist nichts bekannt), diese stahl ihr später ihr Diadem.\
+                    <br><br>\
+                    Dieses Ereignis brach Rowena das Herz, doch als sie schließlich im Sterben lag, wollte sie ihre Tochter trotzdem noch einmal sehen. Also schickte sie einen früheren Verehrer von ihrer Tochter los (der Blutige Baron) um sie zu finden. Als Helena sich weigerte, erstach der Blutige Baron sie. Als er sah was er getan hatte, erstach er sich mit der selben Waffe.\
+                    <br><br>\
+                    Das Haus Ravenclaw ist mit dem Element Luft zu vergleichen.\
+                    <br><br>\
+                    In Ravenclaw sind viele besonders kluge und gelehrte Köpfe. Die Vertrauensschülerin Gemma Farley sagt über sie, dass sie ein so ausgeprägtes Konkurrenzdenken besitzen, dass sie Leuten in den Rücken fallen oder verraten, wenn es um Leistungen geht. Sie wollen stets die Besten sein.";
+        }
+
+        message = "<div id='message'>" + message + "</div>";
+
+        $('#container').html(message);
+
+        function getScore() {
+          var score = 0;
+
+            for (var i=1; i<11; i++) {
+              //var question = i;
+              var answer = $('input[name=q' + i + ']:checked').val();
+
+              if (answer) {
+                score += parseInt(answer);
+              }
+            }
+          return score;
+        }
+
+      });
+    });
+  </script>
+</body>
+</html>
+
