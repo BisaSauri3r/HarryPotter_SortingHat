@@ -1,0 +1,34 @@
+/* MAIN SETTINGS */
+body { margin: 0; padding: 0; background: black; color: white; font-family: "Corbel", sans-serif; }
+#body { background: #445; color: #FFF; }
+#main { background: linear-gradient(to bottom, rgba(0,0,0,0.66) 100%, transparent);background-image: url("../img/hp-sortinghat.jpg"); background-size: cover, cover; background-position: center, center; height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center; }
+#main a { text-decoration: none; color: #fff; }
+h1 { color: #fff; font-family: 'Shikamaru', sans-serif; font-size: 2rem; display: inline-block; padding: 1rem; font-weight: 400; position: relative; opacity: 1; transform: scale(1); transition: transform 0.5s ease, opacity 1s ease; text-align: center; letter-spacing: 1px; }
+.text-italic { font-style: italic; }
+.text-bold { font-weight: bold; }
+.text-gryffindor { color: #740001; }
+.text-hufflepuff { color: #FFD800; }
+.text-ravenclaw { color: #222F5B; }
+.text-slytherin { color: #1A472A; }
+#message { text-align: justify; font-size: 25px; padding: 100px 400px; background-image: url("../img/hp-backgroundsorting.jpg"); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+
+/* Landing */ 
+.bg-hidden { top: -100%; opacity: 0; }
+.bg-visible { top: 0; opacity: 1; }
+.adventurer {  position: relative; width: 100%; height: 500px; background: rgb(50, 50, 50); background: url("../img/hp-greathall.png") no-repeat 50% 50% fixed; background-size: 130%; overflow: hidden; }
+.adventurer h1 { position: absolute; top: 50%; left: 0; width: 100%; padding: .3em; font-size: 3em; font-weight: lighter; }
+.content-wrapper {   font-size: 1.25em; padding: 0 0 40px 0; line-height: 30.2px; margin: 0.5em 0; width: 100%; height: 100%; min-height: 470px; padding: 1em 10%; }
+.content-wrapper h1 { margin: 0; color: rgb(220, 120, 0); }
+.content-wrapper p { font-family: "Open Sans"; text-indent: 1.5em; }
+.back { position: fixed; font-size: 16px; color: #fff; right: 25px; bottom: 5px; background-color: #313131a6; padding: 2px 10px; text-decoration: none; }
+.back:hover { text-decoration: none; color: #868686; }
+
+.form { margin-left: 20%; }
+.radiobtn label { display: block; color: white; border-radius: 5px; padding: 10px 20px; border: 2px solid #77777d4a; margin-bottom: 5px; cursor: pointer; background: #8f8f8f52; width: 540px; }
+.radiobtn input[type=radio] { display: none; position: absolute; width: 100%; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.radiobtn input[type=radio]:checked + label { background: #52381c; border-color: #77777d4a; color: white; }
+.radiobtn input[type=radio]:checked + label:after { background: #52381c; }
+#submit-btn { cursor: pointer; padding: 5px; width: auto; text-align: center; color: #a4a4a4; border-radius: 5px; font-size: 1rem; font-weight: bold; text-transform: uppercase; text-decoration: none; background-color: #2e2e2e; margin: 30px 0 100px 0; }
+
+/* Rights */
+.image-rights { position: fixed; font-size: 16px; left: 5px; bottom: 5px; color: white; padding: 2px 10px; font-size: 10px; }
